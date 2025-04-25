@@ -6,3 +6,6 @@ def agregar_tarea(lista, tarea):
 def listar_tareas(lista):
  for i, tarea in enumerate(lista, 1):
   print(f"{i}. {tarea}")
+def eliminar_tarea(lista, indice):
+ lista.pop(indice)
+ return lista
